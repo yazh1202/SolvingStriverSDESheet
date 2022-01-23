@@ -5,7 +5,7 @@ import javafx.util.Pair;
 
 import java.util.ArrayList;
 
-class SetMatrixZeroes {
+class setMatrixZeroes {
     //BruteForce Approaches
 
     //One TC = O(n*m + n+m + n*m)
