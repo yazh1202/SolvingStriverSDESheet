@@ -1,8 +1,14 @@
 package sortingAlgorithms;
 
 public class mergeSort {
-
-    static int[] mergeSorts(int[] arr,int l,int r){
+    public static void main(String[] args) {
+        int[] arr = {5,3,2,1,4};
+        mergeSorts(arr,0,arr.length-1);
+        for(int i:arr){
+            System.out.println(i + " ");
+        }
+    }
+    static void mergeSorts(int[] arr, int l, int r){
         //Time Complexity = O(NLog(N))
         //Merge Sort involves breaking down the array into half repeatedly and
         //sorting the broken arrays and then
@@ -12,7 +18,6 @@ public class mergeSort {
             mergeSorts(arr,mid+1,r);
             merge(arr,l,r,mid);
         }
-        return arr;
     }
     static void merge(int[] arr,int l, int r,int mid){
         //This method assumes the array from l to mid and mid+1 to r are sorted
