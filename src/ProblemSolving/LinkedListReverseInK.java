@@ -3,7 +3,7 @@ package ProblemSolving;
 import ProblemSolving.ReverseLinkedList.ListNode;
 
 public class LinkedListReverseInK {
-    //Not really Understood
+    /**Not really Understood**/
     public ListNode reverseKGroup (ListNode head,int k){
         //To find the length of the list
         int count = 0;

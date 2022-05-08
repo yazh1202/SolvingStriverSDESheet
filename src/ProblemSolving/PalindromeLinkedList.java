@@ -1,7 +1,7 @@
 package ProblemSolving;
 
 import ProblemSolving.ReverseLinkedList.ListNode;
-//Not fully Understood
+/**Not Fully Understood**/
 public class PalindromeLinkedList {
     static boolean isPalindrome(ListNode head) {
         int count = 0;
