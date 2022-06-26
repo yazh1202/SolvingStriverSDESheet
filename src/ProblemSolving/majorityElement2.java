@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public class majorityElement2 {
-    public static void main(String[] args) {
-
-    }
     /*The bruteforce approach involves checking for each element if it is
     occurring more than n/3 times and this takes O(n) time complexity*/
 
